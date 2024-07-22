@@ -5,7 +5,7 @@ import { TranslationProvider } from 'react-google-multi-lang';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <TranslationProvider apiKey={process.env.REACT_APP_GOOGLE_TRANSLATE_API_KEY} defaultLanguage="en">
+  <TranslationProvider apiKey={process.env.REACT_APP_GOOGLE_TRANSLATE_API_KEY}>
     <App />
   </TranslationProvider>
 );
